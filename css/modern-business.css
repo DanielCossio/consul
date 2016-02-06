@@ -50,6 +50,11 @@ body {
     
 }
 
+#final{
+    text-align: center;
+    margin-top: 2em;
+}
+
 .breadcrumb {
     background-color: #f7fcff;
     font-weight: bold;
