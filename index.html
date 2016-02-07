@@ -178,12 +178,18 @@
 
     </div>
 
+    <script src="js/jquery.js"></script>
+
     <script src="js/bootstrap.min.js"></script>
 
     <script>
-    $('.carousel').carousel({
-        interval: 3500 
-    })
+    $(document).ready(function()
+    {
+        $('.carousel').carousel({
+            interval: 3500 
+        });
+        $('.carousel').carousel('next');
+    });
     </script>
 
 </body>
